@@ -1,0 +1,41 @@
+#main {
+  background-color: #c1c4c7;
+}
+h1{
+  text-align: center;
+  border-bottom: black;
+}
+#movieList {
+  display: flex;
+  justify-content: center;
+}
+#topTen {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  list-style: none;
+  border: solid 1px black;
+  background-color: white;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+}
+.movie {
+  display: flex;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+p {
+  border: solid 1px black;
+  width: 25px;
+  margin: 0;
+  height: 50px;
+  text-align: center;
+  background-color: #75d264;
+}
